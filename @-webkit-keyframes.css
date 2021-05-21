@@ -1,0 +1,43 @@
+@-webkit-keyframes ani{
+ from{
+     background-position-y:0px;
+ }
+ to{
+     background-position-y:-100px;
+   }
+}
+
+#bx{
+  width:100%;
+  height:300px;
+  overflow:hidden;
+  position:relative;
+ }
+ #bx > .iim{
+  width:100%;
+  height:600px;
+  background:url('https://source.unsplash.com/user/erondu');
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  background-position:fixed;
+  animation:an 5s forwards;
+  transition:5s ease forwards;  
+ }
+@-webkit-keyframes an{
+  from{
+    background-position-y:0px;
+  }
+  to{
+    background-position-y:-100px;
+  }
+}
+
+#bx > .txt{
+  width:100%;
+  height:300px;
+  overflow:hidden;
+  position:absolute;
+  color:black;
+  font-size:32px;
+  z-index:6;
+  top:0;
